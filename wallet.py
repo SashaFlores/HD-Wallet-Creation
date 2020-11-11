@@ -11,7 +11,7 @@ from bit import wif_to_key
 from bit import PrivateKeyTestnet
 from bit.network import NetworkAPI
 from web3.auto.gethdev import w3
-from web3.middleware import geth_poa_middleware
+
 
 load_dotenv()
 
@@ -91,6 +91,8 @@ def send_txn(coin,account,recipient, amount):
 
 create_tx(BTCTEST,btc_acc,"mzZvByXUY9PtPymNGW119PJpUidbjoaMBF", 0.1)
 send_txn(BTCTEST,btc_acc," mvu2KnbpdXBmSFqPau6DWwBnMS8U67Gvcz", 0.1)
+create_tx(ETH,eth_acc,"0x78A47Ef95A669e53FFDBa941ceCfD71d459633F5", 1000)
+send_txn(ETH, eth_acc,"0x1c431Dc9B65A1bDC78c4a7ecc9eC05Aa292631F6", 1000)
 
 print(eth_key.get_transactions())
 
