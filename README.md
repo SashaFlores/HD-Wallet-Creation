@@ -4,10 +4,6 @@
 
 ## Multiwallet - Step by Step Guide
 ---
-#### Initial Requirements - New Startup
-
-Main Focus of a newly startup company is to build a portfolio management system (PMS) that supports both, traditional assets (gold, silver, stocks, etc.) and currently very hot topic - crypto-assets!! But as there are many coins, our task is to understand how HD wallets work, and to build a system that can create them.
-
 #### Race to capture the market
 
 `hd-wallet-derive` - A command line tool that supports BIP32, BIP39 and BIP44 and also supports non-standard derivation paths for the most popular wallets. Unfortunately, there arent many tools available in `python` and we need to integrate the script in backend with `python`.
