@@ -1,8 +1,8 @@
-# Multi-Blockchain HD Wallet in Python
+# Multi-HD Wallet in Python
 
 ![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
 
-## Multiwallet - Step by Step Guide
+## HD-Wallet Creation- Step by Step Guide
 
 #### Race to capture the market
 
