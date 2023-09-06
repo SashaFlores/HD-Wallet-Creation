@@ -1,4 +1,4 @@
-# Multi-Blockchain Wallet in Python
+# Multi-Blockchain HD Wallet in Python
 
 ![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
 
